@@ -134,17 +134,19 @@ streamlit run app.py
 ## 💌 스크린샷
 
 - 메인화면
+
 ![감성일기메인](./감성일기메인.png)
 
-<img src="./감성일기메인.png", height="100x", width="100px">
+
 
 - 쓰기화면 & 일기목록화면   
 
-<img src="./감성일기쓰기.png", height="100x", width="100px">
+![쓰기화면](./감성일기쓰기.png)
+
 
 - 일기상세보기 & 일기목록화면
 
-<img src="./감성일기읽기.png", height="100x", width="100px">
+![일기상세보기](./감성일기읽기.png)
 
 
 
