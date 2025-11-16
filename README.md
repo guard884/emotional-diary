@@ -134,6 +134,7 @@ streamlit run app.py
 ## 💌 스크린샷
 
 - 메인화면
+![감성일기메인](./감성일기메인.png)
 
 <img src="./감성일기메인.png", height="100x", width="100px">
 
