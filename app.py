@@ -142,9 +142,6 @@ if st.session_state['selected_entry_id'] is None:
 
 # --------------- 메인 화면: 선택된 일기 내용 표시 ---------------
 df = load_entries()
-
-
-
 if st.session_state['selected_entry_id'] is not None:
     selected_id = st.session_state['selected_entry_id']
     # DataFrame에서 해당 ID를 가진 행 찾기 (ID가 숫자인지 확인 필요)
