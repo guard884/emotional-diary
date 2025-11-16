@@ -160,7 +160,7 @@ if st.session_state['selected_entry_id'] is not None:
         st.markdown("---")
         # st.markdown을 사용하여 내용을 표시하거나 st.text_area에 넣을 수 있습니다.
         st.markdown(f"일기내용: \n\n{entry_data['Entry']}")
-        st.markdown(f"AI답변: \n{entry_data['Answer']}")
+        st.markdown(f"AI답변: \n\n{entry_data['Answer']}")
         if st.button("⬅ 일기쓰기"):
             st.session_state['selected_entry_id'] = None
             st.rerun()
